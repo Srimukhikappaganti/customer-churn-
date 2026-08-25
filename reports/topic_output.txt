@@ -1,0 +1,16 @@
+ topic                                                                                                               top_terms
+     1                           account, new, hour, plan, said, rest compounds, rest, driver thing, compounds new, thing said
+     2              invoice, works, latest, months latest, invoice works, climbed, hard, user hard, hard defend, climbed twice
+     3 roughly double, worse, double, roughly, double usage, justifies, seat basis, cost active, basis paying, justifies trend
+     4 ve, like good, stopped expecting, news realize, anymore sounds, sounds, sounds like, team complains, ve just, complains
+     5            trying, justify, real, size, fix payroll, night trying, misbehaves, night, misbehaves department, trying fix
+     6                     tool, honestly, item, spend, ll, noticed accumulating, triggered, noticed, feeling, feeling noticed
+
+Topic/churn comparison:
+ topic  mean_score_retained  mean_score_churned
+     1             0.045759            0.040064
+     2             0.052005            0.027527
+     3             0.037030            0.039313
+     4             0.040478            0.020516
+     5             0.039468            0.037964
+     6             0.051730            0.057471

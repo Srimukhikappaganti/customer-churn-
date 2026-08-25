@@ -1,0 +1,72 @@
+{
+  "rows": 500,
+  "columns": [
+    "conversation_id",
+    "channel",
+    "product_category",
+    "customer_tenure",
+    "tenure_months",
+    "churn_risk_level",
+    "churn_signals",
+    "sentiment_arc",
+    "resolution_outcome",
+    "injection_style",
+    "customer_persona",
+    "agent_persona",
+    "company_size",
+    "plan_name",
+    "plan_type",
+    "seats",
+    "active_seats",
+    "per_seat_price_usd",
+    "mrr_usd",
+    "discount_offered_pct",
+    "turn_count",
+    "word_count",
+    "participants",
+    "conversation",
+    "summary",
+    "quality_score",
+    "stale_phrase_count"
+  ],
+  "duplicate_rows": 0,
+  "duplicate_conversation_id": 0,
+  "missing_values": {
+    "discount_offered_pct": 396
+  },
+  "churn_risk_level": {
+    "low": 197,
+    "medium": 170,
+    "high": 92,
+    "churned": 41
+  },
+  "resolution_outcome": {
+    "retained_no_concession": 106,
+    "retained_with_feature_promise": 99,
+    "downgraded": 68,
+    "retained_with_plan_change": 66,
+    "retained_with_discount": 43,
+    "escalated_to_manager": 35,
+    "churned_after_negotiation": 28,
+    "paused_account": 22,
+    "churned_to_competitor": 20,
+    "churned_silent": 13
+  },
+  "target_churn_count": 61,
+  "target_churn_rate": 0.122,
+  "categorical_cardinality": {
+    "conversation_id": 500,
+    "channel": 5,
+    "product_category": 10,
+    "customer_tenure": 7,
+    "churn_risk_level": 4,
+    "sentiment_arc": 10,
+    "resolution_outcome": 10,
+    "injection_style": 7,
+    "customer_persona": 8,
+    "agent_persona": 8,
+    "company_size": 4,
+    "plan_name": 7,
+    "plan_type": 2
+  }
+}
