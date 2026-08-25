@@ -6,10 +6,15 @@ import joblib
 import pandas as pd
 import streamlit as st
 
+# Project root
+ROOT = Path(__file__).resolve().parents[1]
+
+# Add project root to Python path
+sys.path.insert(0, str(ROOT))
 
 from src.data_utils import load_data, prepare_model_frame
 
-ROOT = Path(__file__).resolve().parents[1]
+
 
 
 # ============================================================
